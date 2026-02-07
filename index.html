@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Propose Day Sharvari 💖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="assets/music/romantic.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="happyMusic" loop preload="auto">
+        <source src="assets/music/happy.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="sadMusic" loop preload="auto">
+        <source src="assets/music/sad.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- FLOATING EMOJIS -->
+    <div id="emoji-container"></div>
+
+    <!-- SCENE 0 -->
+    <section class="scene active">
+        <div class="content">
+            <h1 class="typing glow highlight" data-text="Hey Sharvari ❤️"></h1>
+            <p class="typing glow big-text"
+                data-text="I made something from my heart… tap below and take this journey with me."></p>
+            <button id="startBtn">Tap to Begin 💖</button>
+        </div>
+    </section>
+
+    <!-- SCENE 1 -->
+    <section class="scene scene-with-title">
+        <h1 class="typing glow scene-title" data-text="Sharvari ❤️"></h1>
+        <div class="content content-below-title">
+            <p class="typing glow big-text"
+                data-text="मी तुझ्यावर अचानक प्रेम केलं नाही. ते एका क्षणात झालेलं काही नव्हतं. ते हळूहळू… अगदी नकळत, माझ्या मनात रुजत गेलं — आणि मग फुलत गेलं 🌹">
+            </p>
+        </div>
+    </section>
+
+    <!-- SCENE 2 -->
+    <section class="scene">
+        <div class="content">
+            <p class="typing glow big-text"
+                data-text="आपण बोलायला सुरुवात केली तेव्हा मी फक्त शब्द बोलत होतो… पण कधी कळलंच नाही — त्या शब्दांमध्ये माझं मन गुंतत चाललं होतं.">
+            </p>
+        </div>
+    </section>
+
+    <!-- SCENE 3 -->
+    <section class="scene">
+        <div class="content">
+            <p class="typing glow big-text"
+                data-text="कुठेतरी आपल्या बोलण्यात, तुझ्या साध्या “काय करतोस?” मध्ये, तुझ्या हसण्यात 😊 मला एक शांतपणा सापडला 🫶 जो मला खूप दिवसांपासून हवा होता.">
+            </p>
+        </div>
+    </section>
+
+    <!-- SCENE 4 -->
+    <section class="scene">
+        <div class="content">
+            <p class="typing glow big-text"
+                data-text="हळूहळू तू… माझ्या दिवसांची सवय झालीस, रात्रीच्या विचारांमधला आराम झालीस, आणि नकळत — माझ्या हास्याचं कारण झालीस ❤️">
+            </p>
+        </div>
+    </section>
+
+    <!-- SCENE 5 -->
+    <section class="scene">
+        <div class="content">
+            <p class="typing glow big-text"
+                data-text="And somewhere between all this… you became my comfort. My safe place 🕊️ The one person I look forward to talking to, no matter how heavy the day feels.">
+            </p>
+        </div>
+    </section>
+
+    <!-- SCENE 6 -->
+    <section class="scene">
+        <div class="content">
+            <p class="typing glow big-text"
+                data-text="After everything I’ve been through, I never thought I’d feel this calm with someone again. But with you… it felt easy. Natural. Real. 💖">
+            </p>
+        </div>
+    </section>
+
+    <!-- SCENE 7 -->
+    <section class="scene">
+        <div class="content">
+            <p class="typing glow big-text"
+                data-text="आपण एकमेकांपासून लांब आहोत 🌍 पण तरीही… तुझी presence मला जवळ वाटते. तुझा आवाज, तुझे शब्द — हे अंतर विसरायला लावतात ✨">
+            </p>
+        </div>
+    </section>
+
+    <!-- SCENE 8 -->
+    <section class="scene">
+        <div class="content">
+            <p class="typing glow big-text"
+                data-text="Some people enter your life loudly. But you… you came softly 🌸 and stayed deeply 💞">
+            </p>
+        </div>
+    </section>
+
+    <!-- SCENE 9 -->
+    <section class="scene">
+        <div class="content">
+            <p class="typing glow long-message"
+                data-text="आज काही मोठं, filmy सांगायचं नाही. फक्त एवढंच — माझ्या मनाला तू खूप आपली वाटतेस. खूप… खऱ्या अर्थाने. ❤️ And if love means choosing someone every single day, even from miles away… then my heart has already chosen you 🌹❤️">
+            </p>
+            <button id="nextBtn">I have one last question 💍</button>
+        </div>
+    </section>
+
+    <!-- PROPOSAL SCENE -->
+    <section class="scene">
+        <div class="content final-proposal">
+            <div class="gif-blend-zone">
+                <img src="assets/gifs/propose.gif" class="proposal-gif-merged" alt="Proposal">
+            </div>
+
+            <h1 class="typing glow highlight" data-text="Will you be mine, Sharvari? 💖"></h1>
+            <h2 class="typing glow highlight-marathi" data-text="तू माझी होशील का, शरवरी? 🌸"></h2>
+
+            <div class="button-group">
+                <button class="yes-btn">YES 💕</button>
+                <button class="no-btn">NO 💔</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL YES SCENE (NEW) -->
+    <section class="scene" id="yesScene">
+        <div class="content">
+            <img src="assets/gifs/happy.gif" class="ending-gif" alt="Happy">
+            <h1 class="glow highlight">Thank you for saying YES ❤️</h1>
+            <p class="glow big-text">
+                I can’t explain how happy this moment made me.
+                Your YES means more to me than words can ever say.
+                I promise to value you, respect you, and always stand by you 💖
+            </p>
+        </div>
+    </section>
+
+    <!-- FINAL NO SCENE (NEW) -->
+    <section class="scene" id="noScene">
+        <div class="content">
+            <img src="assets/gifs/sad.gif" class="ending-gif" alt="Sad">
+            <h1 class="glow highlight">I understand… 😔</h1>
+            <p class="glow big-text">
+                This hurts, but I respect your feelings.
+                Thank you for being honest with me.
+                You will always hold a special place in my heart 💔
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
